@@ -8,6 +8,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 #
 # Parameters
 #
+# The inputs to our model. "Placeholders" will be filled in at run time from the model data.
+# Variables will be initialized in some way (to zero, in this case), and then iteratively
+# derived/refined from the input data and the loss function.
+#
 
 x = tf.placeholder(tf.float32, [None, 784])  # Image dataset [][784]
 W = tf.Variable(tf.zeros([784, 10]))         # Weights matrix [784]10] (784 pixels mapped to each output digit)
