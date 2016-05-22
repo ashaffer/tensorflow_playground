@@ -1,6 +1,6 @@
-# tensorflow_playground
+# Tensorflow Playground
 
-Just playing around with tensorflow
+Just playing around with [tensorflow](https://www.tensorflow.org/).
 
 ## Contents
 
